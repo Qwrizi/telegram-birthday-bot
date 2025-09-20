@@ -1,5 +1,6 @@
 python-telegram-bot==20.7
-sqlalchemy==2.0.23
+sqlalchemy==1.4.49  # Стабильная LTS версия
 apscheduler==3.10.4
 python-dateutil==2.8.2
 aiohttp==3.9.1
+python-dotenv==1.0.0
