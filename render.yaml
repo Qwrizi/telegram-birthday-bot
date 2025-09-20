@@ -7,4 +7,4 @@ services:
     startCommand: python -m bot.main
     envVars:
       - key: BOT_TOKEN
-        fromSecret: true
+        value: 8302042694:AAG96Fm58VffC2PvzMLi9ryTgM5UHl2ryj0
