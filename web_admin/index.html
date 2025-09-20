@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Bot Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎂 Birthday Bot Admin</h1>
+        </header>
+
+        <div class="section">
+            <h2>Добавить день рождения</h2>
+            <form id="addForm">
+                <input type="text" id="username" placeholder="@username" required>
+                <input type="date" id="birthDate" required>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Список дней рождения</h2>
+            <div id="birthdaysList"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
